@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'hello again'
                 pwd
-                make hello
             }
         }
         stage('world') {
